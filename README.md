@@ -1,1 +1,5 @@
 # CMPT741-Recommendation-Contest-Kaggle
+In this project, the team trained models on 2038130 user-item pairs with true ratings provided in train rating.txt, from the Yelp dataset, to predict ratings for 108024 user-item pairs provided in test rating.txt and evaluate the RMSE score on test rating.txt on Kaggle. Three models, Singular- Value Decomposition (SVD), Factorization Machines (FM), and customized methodology to incor- porate review text were experimented in this project. Performance of each model was evaluated using root mean square error. Finally, the team ensembled SVD and FM by averaging the rating score. Individually, both SVD and FM have excellent performance in the prediction, and the lowest RMSE on Kaggle was achieved by ensemble method.
+
+Under my leadership, the prediction results based on our approach won the First Place amongst 43 teams in the class.
+![Alt text](https://github.com/happylittlebunny/CMPT741-Recommendation-Contest-Kaggle/blob/master/screenshots/kaggle-privateLeaderboard-half.png)
