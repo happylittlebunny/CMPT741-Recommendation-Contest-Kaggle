@@ -1,0 +1,1 @@
+./libFM -task r -train /Users/yuyizhou/Documents/2017Fall/CMPT741/project/libFM/data/train.libfm  -test /Users/yuyizhou/Documents/2017Fall/CMPT741/project/libFM/data/test.libfm -dim ’1,1,2’ -meta /Users/yuyizhou/Documents/2017Fall/CMPT741/project/libFM/data/group.txt -iter 500
